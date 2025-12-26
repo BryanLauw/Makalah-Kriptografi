@@ -2,7 +2,7 @@
 set -e
 
 echo "1. Compile x264"
-cd x264
+cd x264-master
 make -j4
 cd ..
 
