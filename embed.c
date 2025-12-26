@@ -70,7 +70,7 @@ void mode_sisip() {
     // 3. Bangun Perintah Pipeline
     sprintf(cmd, 
         "ffmpeg -i %s -f yuv4mpegpipe - 2>/dev/null | "
-        "./x264/x264 --demuxer y4m --threads 1 "
+        "./x264-master/x264 --demuxer y4m --threads 1 "
         "--bframes 0 --partitions none --no-dct-decimate "
         "--output intermediate.264 - ", 
         input_path);
