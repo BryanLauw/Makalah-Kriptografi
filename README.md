@@ -32,7 +32,7 @@ Pada proyek ini, pesan rahasia disisipkan ke dalam *motion vector* selama proses
 1. Siapkan kebutuhan untuk menjalankan program
 2. Clone repository ini dengan perintah `https://github.com/BryanLauw/Makalah-Kriptografi.git`
 3. Pindah ke direktori utama dengan perintah `cd Makalah-Kriptografi`
-4. Masuk ke wsl dengan perintah `wsl`
+4. Masuk ke wsl dengan perintah `wsl` (apabila menggunakan Windows)
 5. Ubah perizinan file .sh dengan perintah `chmod +x build.sh setup.sh`
 5. Jalankan `./setup.sh`
 6. Jalankan `./build.sh`
